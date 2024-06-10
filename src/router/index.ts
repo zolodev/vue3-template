@@ -9,6 +9,12 @@ const router = createRouter({
       name: 'root',
       component: HomeView
     }
+    // Example dynamic route
+    // {
+    //   path: '/another',
+    //   name: 'another',
+    //   component: () => import('@/views/AnotherView.vue')
+    // }
   ]
 })
 
